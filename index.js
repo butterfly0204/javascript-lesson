@@ -1,16 +1,18 @@
-
-let peopleCount =document.getElementById("People")
-
-console.log (peopleCount)
-
+let increaseNum =document.getElementById("People") 
 let count = 0
- 
+
+console.log(count)
 
 function increment(){
-  count = count + 1
-  peopleCount.innerText = count
-
-
+  count = count + 1;
+  increaseNum.innerText = count;
 }
 
+
 increment()
+
+function save() {
+  console.log(count)
+}
+
+save()
