@@ -1,4 +1,10 @@
-function myNum(){
-  console.log(42);
+let lapCompleted = 0
+
+function lapTime(){
+  lapCompleted =lapCompleted+1
+  console.log(lapCompleted)
 }
-myNum();
+
+lapTime()
+lapTime()
+lapTime()
