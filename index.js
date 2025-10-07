@@ -1,9 +1,16 @@
-let people = document.getElementById("people")
+
+let peopleCount =document.getElementById("People")
+
+console.log (peopleCount)
 
 let count = 0
+ 
 
 function increment(){
   count = count + 1
-  console.log(count)
+  peopleCount.innerText = count
+
+
 }
+
 increment()
