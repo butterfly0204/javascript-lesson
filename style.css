@@ -1,0 +1,21 @@
+body{
+
+    background-image: url(subway.jpg);
+    background-size:cover;
+    color: white;
+   
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    text-shadow: 2px 2px black;
+    font-size: 50px;
+
+}
+h2{
+    text-align: center; 
+     text-shadow: 2px 2px black;
+        font-size: 40px;
+}
