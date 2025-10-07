@@ -1,18 +1,3 @@
-let increaseNum =document.getElementById("People") 
-let count = 0
-
-console.log(count)
-
-function increment(){
-  count = count + 1;
-  increaseNum.innerText = count;
-}
-
-
-increment()
-
-function save() {
-  console.log(count)
-}
-
-save()
+let name = "Favour"
+let message = "You have 3 New notifications"
+console.log(message + name)
