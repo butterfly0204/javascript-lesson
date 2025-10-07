@@ -13,13 +13,14 @@ h1 {
 }
 h2{
     text-align: center; 
-     text-shadow: 2px 2px black;
+    
     font-size: 40px;
 }
 
 button{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    padding: 10px;
+    font-size: 20px;
+    margin-left: 400px;
+    background-color: orangered;
     
 }

@@ -1,10 +1,9 @@
-let lapCompleted = 0
+let people = document.getElementById("people")
 
-function lapTime(){
-  lapCompleted =lapCompleted+1
-  console.log(lapCompleted)
+let count = 0
+
+function increment(){
+  count = count + 1
+  console.log(count)
 }
-
-lapTime()
-lapTime()
-lapTime()
+increment()
