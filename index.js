@@ -1,4 +1,7 @@
-name ="favour"
-greeting =" Hi, my name is"
-myGreeting= greeting + " " + name +"."
-console.log(myGreeting)
+ let welcomeEl = document.getElementById("welcome-el")
+let name = "favour"
+let geeting = "Welcome back"
+
+welcomeEl.innerText = geeting +" " +name
+
+welcomeEl.innerText += "👋"
