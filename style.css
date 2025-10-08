@@ -24,7 +24,7 @@ button{
     background-color: orangered;
     
 }
-#save-btn{
+.save-btn{
     margin-top: 20px;
     margin-left: 200px;
     background-color: yellowgreen;
