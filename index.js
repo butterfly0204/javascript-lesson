@@ -6,7 +6,9 @@ let isAlive = true
 let message = ""
 
 
-if (sum <= 20){
+
+function startGame() {
+  if (sum <= 20){
   message = "Do you want to draw a new card?"
 
 }
@@ -23,3 +25,7 @@ else {
 console.log(message)
 
 console.log(isAlive)
+
+
+}
+

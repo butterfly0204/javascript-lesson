@@ -1,31 +1,32 @@
 
 body {
-    background-color: lightblue;
+    background-color: rgb(83, 2, 107);
+    font-family: 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    text-align: center;
 }
-
-h1 {
-    display: flex;
-    justify-content: center;
-    margin-top: 200px;
-
-    font-size: 50px;
-
-}
-h2{
-    text-align: center; 
+h1{
+   
+    color:rgb(238, 49, 137);
     
-    font-size: 40px;
+}
+p{
+   
+    color:white;
+    font-style: italic;
 }
 
 button{
-  display: block;
-  margin: 20px auto;
-  background-color: aqua;
-    
+    background-color: rgb(238, 49, 137);        
+    color: white;
+    border-radius: 12px;
+    border: none;
+    width: 150px;
+    padding: 10px;
+
+    font-weight: bold;
+    cursor: pointer;
+   
+
 }
-span{
-    font-size: 30px;
-    text-align: center;
-    margin-left: 100px;
-    
-}   
+
