@@ -1,14 +1,10 @@
-let firstCard =18
-let secondCard =8
+let age = 20
 
-let sum = firstCard + secondCard
+if (age < 21) {
+    console.log("You cannot enter the club")
 
-if(sum < 21){
-    console.log("Do you want to draw a new card?")
-}
-else if(sum===21){
-    console.log("Wohoo! You've got Blackjack!")
-}
-else{
-    console.log("You're out of the game!")
-}
+  
+  }
+  else{
+    console.log("Welcome!")
+  }
