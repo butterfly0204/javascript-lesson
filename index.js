@@ -1,42 +1,6 @@
-let num1 =5
-let num2 =2
+let firstCard =5
+let secondCard =8
 
-document.getElementById("num1-el").textContent = num1
-document.getElementById("num2-el").textContent = num2
-let sum = document.getElementById("sum-el") 
+let sum = firstCard + secondCard
 
-
-
-function add(){
-  let result = (num1 + num2)
-
-  sum.textContent= "sum:" + result
-  
-
-
-}
-function substact(){
- let result = (num1 - num2)
-
-  sum.textContent= "sum:" + result
-  
-
-}
-function divide(){
-
-let result = (num1 / num2)
-
-  sum.textContent= "sum:" + result
-  
-
-}
-function multiply(){
-let result = (num1 * num2)
-
-  sum.textContent= "sum:" + result
-  
-
-}
-
- 
-
+console.log(sum) 
