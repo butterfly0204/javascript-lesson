@@ -1,11 +1,12 @@
- let firstCard = 10
-let secondCard = 2
+ let firstCard = 12
+let secondCard = 9
 let sum = firstCard + secondCard
 let hasBlackJack = false
 let isAlive = true
 let message = ""
 let messageEl = document.getElementById("message-el")
 let sumEl = document.getElementById("sum-el")
+let cardsEl= document.getElementById("cards-el") 
 
 
 
@@ -27,10 +28,12 @@ else {
   isAlive = false
     sumEl.textContent = "Sum: " + sum
 }
+
+
 messageEl.textContent = message
-
-
+cardsEl.textContent ="Cards:" + firstCard + "   " + secondCard
 
 
 }
+
 
