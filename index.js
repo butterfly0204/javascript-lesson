@@ -1,22 +1,8 @@
-let People  = document.getElementById("People-entered")
-let saveEl = document.getElementById("save-el")
-let count = 0
-function increment(){
- count += 1
-   People.textContent = count
-}  
-increment()
+let name = "linda"
+let greeting = "hi there"
 
+function calls(){
+  console.log (geeting + " " + name)
+}
 
-function save() {
-   let countStr = count + " - "
-   saveEl.textContent += countStr
-    count = 0
-
- 
-    People.textContent = 0
-     
-}   
-
-save()
-
+calls()
