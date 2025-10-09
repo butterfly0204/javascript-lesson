@@ -1,21 +1,42 @@
+let num1 =5
+let num2 =2
+
+document.getElementById("num1-el").textContent = num1
+document.getElementById("num2-el").textContent = num2
+let sum = document.getElementById("sum-el") 
 
 
 
-let myPoints = 3
-function add3Points(){
- myPoints = myPoints +=3
-console.log(myPoints)
-}
-add3Points()
-add3Points()
-add3Points()
-remove1Point()
-remove1Point()
+function add(){
+  let result = (num1 + num2)
 
-function remove1Point(){
-  myPoints= myPoints -=1
-  console.log(myPoints)
+  sum.textContent= "sum:" + result
+  
+
 
 }
+function substact(){
+ let result = (num1 - num2)
 
-//remove1Point()
+  sum.textContent= "sum:" + result
+  
+
+}
+function divide(){
+
+let result = (num1 / num2)
+
+  sum.textContent= "sum:" + result
+  
+
+}
+function multiply(){
+let result = (num1 * num2)
+
+  sum.textContent= "sum:" + result
+  
+
+}
+
+ 
+

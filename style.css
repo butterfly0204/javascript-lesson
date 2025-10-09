@@ -18,14 +18,14 @@ h2{
 }
 
 button{
-    padding: 10px;
-    font-size: 20px;
-    margin-left: 200px;
-    background-color: orangered;
+  display: block;
+  margin: 20px auto;
+  background-color: aqua;
     
 }
-.save-btn{
-    margin-top: 20px;
-    margin-left: 200px;
-    background-color: yellowgreen;
-}
+span{
+    font-size: 30px;
+    text-align: center;
+    margin-left: 100px;
+    
+}   
