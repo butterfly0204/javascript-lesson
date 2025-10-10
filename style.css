@@ -1,7 +1,7 @@
 
 body {
-    background-color: rgb(83, 2, 107);
-    font-family: 'Trebuchet MS', sans-serif;
+  
+ 
     font-weight: bold;
     text-align: center;
 }
@@ -26,6 +26,7 @@ button{
 
     font-weight: bold;
     cursor: pointer;
+    margin-top: 5px;
    
 
 }
