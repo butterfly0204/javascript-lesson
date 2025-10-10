@@ -1,4 +1,5 @@
-for(i =10; i<101; i+=10)
+let cards = [7,3,9]
 
-  console.log(i);
-
+for (i = 0; i < cards.length; i++){
+  console.log(cards[i])
+}
