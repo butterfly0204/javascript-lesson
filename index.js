@@ -1,8 +1,16 @@
+let hasCompletedCourse = true;
+let givesCertificate = false;
 
-function rollDice() {
-
- let random = Math.floor(Math.random() * 6) +1
- return random
+function generateCertificate() {
+    if (hasCompletedCourse && givesCertificate) {
+        console.log("Generating your certificate...");
+    }   
+    else {
+        console.log("You are not eligible for a certificate.");
+    }
 }
 
- console.log(rollDice())
+generateCertificate();  
+
+
+
