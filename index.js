@@ -15,5 +15,13 @@ function getFastestRaceTime() {
   } 
 }
 
-let fastestRace = getFastestRaceTime()
-console.log(fastestRace)
+////let fastestRace = getFastestRaceTime()
+//console.log(fastestRace)
+
+function totalRaceTime() {
+  return  player1Time + player2Time
+} 
+
+ let totalTime = totalRaceTime()
+   
+console.log(totalTime)
