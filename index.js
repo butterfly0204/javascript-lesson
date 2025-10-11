@@ -1,16 +1,12 @@
-let hasCompletedCourse = true;
-let givesCertificate = false;
+let hasSolveedChallenged = false;
+let hasSolvedChallenge = false;
 
-function generateCertificate() {
-    if (hasCompletedCourse && givesCertificate) {
-        console.log("Generating your certificate...");
-    }   
-    else {
-        console.log("You are not eligible for a certificate.");
+function showSolution(){
+    if (hasSolvedChallenge===false && hasSolveedChallenged===false){
+        console.log("showing the solution");
+
     }
+
 }
 
-generateCertificate();  
-
-
-
+showSolution();
