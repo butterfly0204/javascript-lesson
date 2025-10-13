@@ -1,12 +1,12 @@
-let hasSolveedChallenged = false;
-let hasSolvedChallenge = false;
+let course = {
 
-function showSolution(){
-    if (hasSolvedChallenge===false && hasSolveedChallenged===false){
-        console.log("showing the solution");
-
-    }
-
+title: " Larn css grid for free",
+lesson: 16,
+creator: "per Harald Borgen",
+length: 63,
+level:2,
+isFree:true,
+tags:["html","css","grid","frontend"],
 }
 
-showSolution();
+console
