@@ -1,9 +1,13 @@
-let airbndCastleListiing = {
-    isBeautiful: true,
-    place: "london",
-    isNumber: 54,
-    names:["london", "paris", "Amenica"]
+let personObject = {
+    name: "mogaji favour",
+    age:20,
+    country: "nigeria"
+
 }
 
-console.log(airbndCastleListiing.place) 
-console.log(airbndCastleListiing.isNumber)  
+function logData(){
+   console.log( personObject.name + " is " + personObject.age +"years old " + "and lives in " + personObject.country)
+}
+ 
+
+logData()
