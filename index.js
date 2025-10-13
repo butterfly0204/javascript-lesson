@@ -1,13 +1,18 @@
-let personObject = {
-    name: "mogaji favour",
-    age:20,
-    country: "nigeria"
+let age = 16
 
+if(age < 6){
+    console.log("free")
+}
+else if (age <18 ){
+    console.log("child Discount")
 }
 
-function logData(){
-   console.log( personObject.name + " is " + personObject.age +"years old " + "and lives in " + personObject.country)
+else if(age <27){
+    console.log("student discount")
 }
- 
-
-logData()
+else if(age <67){
+    console.log(" full price ")
+}
+else {
+    console.log("senior citizn discount")
+}
