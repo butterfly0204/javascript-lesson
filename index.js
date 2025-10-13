@@ -1,12 +1,9 @@
-let course = {
-
-title: " Larn css grid for free",
-lesson: 16,
-creator: "per Harald Borgen",
-length: 63,
-level:2,
-isFree:true,
-tags:["html","css","grid","frontend"],
+let airbndCastleListiing = {
+    isBeautiful: true,
+    place: "london",
+    isNumber: 54,
+    names:["london", "paris", "Amenica"]
 }
 
-console
+console.log(airbndCastleListiing.place) 
+console.log(airbndCastleListiing.isNumber)  
