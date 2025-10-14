@@ -1,9 +1,5 @@
-let largeCountris = ["china", "india", "USA","INDONESIA", "Pakistan","Nigeria"]
+let largestCountries = ["Tuvalu", "india", "usa,", "indonesia", "monaco"]
 
-console.log("The 5 largst countries in thee world")
-
-for ( let i =0; i < largeCountris.length; i++ ){
-
-    console.log("-" + largeCountris[i])
-
-}
+largestCountries.pop()
+largestCountries.push("china", "pakistan")
+console.log(largestCountries)
