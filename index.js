@@ -2,8 +2,11 @@ let myLeads= ['']
 const inputEL = document.getElementById("input-el")
 
 
-let saveBtn = document.getElementById("input-btn")
+const inputBtn = document.getElementById("input-btn")
 
-saveBtn.addEventListener("click", function(){
-    console.log("Button clocked")
-} )
+
+
+inputBtn.addEventListener("click", function(){
+    myLeads.push("www.awesomeload.com")
+    console.log(myLeads)
+} )  
