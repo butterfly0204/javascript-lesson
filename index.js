@@ -1,8 +1,6 @@
- let inputButton = document.getElementById("input-btn")
+let myBox = document.getElementById("myBox")
 
 
- inputButton.addEventListener("click", function(){
-
-    console.log ("chicken")
-
- })
+myBox.addEventListener("click", function() {
+    console.log("I want to open the box! when its clicked")
+})

@@ -26,3 +26,9 @@ button{
     font-weight: bold;
 
 }
+
+
+#myBox{
+    padding: 50px;
+    background-color: blueviolet;
+}
