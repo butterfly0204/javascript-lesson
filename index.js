@@ -1,11 +1,8 @@
-let fruit = ["🍎", "🍎", "🍎","🍊","🍊"]
-
-let appleShelf = document.getElementById("apple-shelf")
-let orangeShelf = document.getElementById("orange-shelf")
-
-function sort(){
-  
-
-}
+ let inputButton = document.getElementById("input-btn")
 
 
+ inputButton.addEventListener("click", function(){
+
+    console.log ("chicken")
+
+ })
