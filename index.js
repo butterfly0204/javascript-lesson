@@ -1,6 +1,9 @@
-let myBox = document.getElementById("myBox")
+let myLeads= ['']
+const inputEL = document.getElementById("input-el")
 
 
-myBox.addEventListener("click", function() {
-    console.log("I want to open the box! when its clicked")
-})
+let saveBtn = document.getElementById("input-btn")
+
+saveBtn.addEventListener("click", function(){
+    console.log("Button clocked")
+} )
