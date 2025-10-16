@@ -22,5 +22,10 @@ for (let i=0; i < myLeads.length; i++){
 
 let myContainer = document.getElementById("container")
 
-myContainer.innerHTML = "<button> Buy !  </button>"
  
+myContainer.innerHTML = "<button onClick = 'buy()'> Buy !  </button>"
+
+function buy(){
+     myContainer.innerHTML += "<p> Thank for buying </p>"
+}
+buy()
