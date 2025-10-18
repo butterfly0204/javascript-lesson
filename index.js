@@ -1,8 +1,17 @@
-/*
+
 let myLeads = []
 const inputEL = document.getElementById("input-el")
 const ulEl = document.getElementById("ul-el")
 const inputBtn = document.getElementById("input-btn")
+
+localStorage.setItem("myName", "Mogaji Favour")
+
+
+myName =localStorage.getItem("myName")
+
+console.log(myName)
+
+localStorage.clear()
 
  
 
@@ -19,7 +28,7 @@ function renderLeads() {
 
    listItems += 
    `<li> 
-   <a href = '' target='_blank'>  ${myLeads[i]}  </a>
+   <a href = ' ${myLeads[i]}' target='_blank'>  ${myLeads[i]}  </a>
    
    </li> `
   }
@@ -30,13 +39,11 @@ inputBtn.addEventListener("click", function(){
  inputEL.value =""
 })
 
-*/
 
-const recipient = "james"
 
-const email = `hey ${recipient} How is it going ? cheers per`
 
-console.log(email)
+
+
 
 
 

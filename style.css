@@ -26,4 +26,9 @@ button{
     font-weight: bold;
 
 }
+ul, li, a {
+    list-style: none;
+    color: green;
+    padding-left: 0;
+}
 
