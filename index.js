@@ -32,6 +32,12 @@ inputBtn.addEventListener("click", function(){
 
 */
 
+const recipient = "james"
+
+const email = `hey ${recipient} How is it going ? cheers per`
+
+console.log(email)
+
 
 
 
