@@ -1,5 +1,9 @@
 
-let myLeads = []
+let myLeads = `["www.google.com"]`
+myLeads = JSON.parse(myLeads)
+
+myLeads.push("www.google.com")
+
 const inputEL = document.getElementById("input-el")
 const ulEl = document.getElementById("ul-el")
 const inputBtn = document.getElementById("input-btn")
@@ -46,5 +50,5 @@ inputBtn.addEventListener("click", function(){
 
 
 
-
+ 
 
