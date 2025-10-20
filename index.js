@@ -1,21 +1,16 @@
 
 let myLeads = `["www.google.com"]`
-myLeads = JSON.parse(myLeads)
-
-myLeads.push("www.google.com")
-
 const inputEL = document.getElementById("input-el")
 const ulEl = document.getElementById("ul-el")
 const inputBtn = document.getElementById("input-btn")
 
-localStorage.setItem("myName", "Mogaji Favour")
+leadsFromLocalStorage = JSON.parse(localStorage.getItem("myLeads"))
+
+console.log(leadsFromLocalStorage)
 
 
-myName =localStorage.getItem("myName")
 
-console.log(myName)
 
-localStorage.clear()
 
  
 
@@ -23,6 +18,8 @@ localStorage.clear()
 
 inputBtn.addEventListener("click", function() {
     myLeads.push(inputEL.value)
+    inputEL.value = ""
+    localStorage.setItem("myLeads", JSON.stringify(myLeads))
     renderLeads()
 }) 
 
