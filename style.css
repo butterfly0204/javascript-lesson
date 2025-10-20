@@ -32,3 +32,8 @@ ul, li, a {
     padding-left: 0;
 }
 
+ #del{
+    color: green;
+    background-color: white;
+    border: 2px solid green;
+}

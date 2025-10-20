@@ -1,28 +1,15 @@
 
-let myLeads = `["www.google.com"]`
+let myLeads = []
 const inputEL = document.getElementById("input-el")
 const ulEl = document.getElementById("ul-el")
 const inputBtn = document.getElementById("input-btn")
+const delBtn = document.getElementById("del")
+ const leadsFromLocalStorage = JSON.parse(localStorage.getItem("myLeads"))
 
-leadsFromLocalStorage = JSON.parse(localStorage.getItem("myLeads"))
-
-console.log(leadsFromLocalStorage)
-
-
-
-
-
- 
-
-
-
-inputBtn.addEventListener("click", function() {
-    myLeads.push(inputEL.value)
-    inputEL.value = ""
-    localStorage.setItem("myLeads", JSON.stringify(myLeads))
-    renderLeads()
-}) 
-
+if (leadsFromLocalStorage) {
+  myLeads =leadsFromLocalStorage
+  renderLeads()
+}
 function renderLeads() {
   let listItems = ""
   for (let i = 0; i < myLeads.length; i++){
@@ -39,6 +26,27 @@ function renderLeads() {
 inputBtn.addEventListener("click", function(){
  inputEL.value =""
 })
+
+delBtn.addEventListener("dblclick", function(){
+  localStorage.clear()
+  myLeads =[]
+  renderLeads()
+
+  console.log("ouch, You clicked me")
+
+
+}
+)
+inputBtn.addEventListener("click", function() {
+    myLeads.push(inputEL.value)
+    inputEL.value = ""
+    localStorage.setItem("myLeads", JSON.stringify(myLeads))
+    renderLeads()
+}) 
+
+
+
+
 
 
 
