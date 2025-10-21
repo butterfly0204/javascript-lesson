@@ -1,4 +1,4 @@
-
+/*
 let myLeads = []
 const inputEL = document.getElementById("input-el")
 const ulEl = document.getElementById("ul-el")
@@ -44,6 +44,16 @@ inputBtn.addEventListener("click", function() {
     renderLeads()
 }) 
 
+*/
+
+let welcome = document.getElementById("welcome")
+
+
+function hello(name){
+welcome.textContent = "hi my name is "  + name
+}
+
+hello("favour")
 
 
 
