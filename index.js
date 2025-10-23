@@ -49,12 +49,11 @@ inputBtn.addEventListener("click", function() {
 let welcome = document.getElementById("welcome")
 
 
-function hello(greeting){
-welcome.textContent = greeting+ " mogaji favour"
+function hello(greeting, name, emoji){
+welcome.textContent =` ${greeting}  ,${name} ${emoji}`
 }
 
-hello("Welcome back")
-
+hello("Welcome back", "favour"," 🍎" )
 
 
 
