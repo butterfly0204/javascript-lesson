@@ -1,16 +1,10 @@
-let player = "per"
-let opponent = "nick"
-const game = " AmazingFighter"
-let points = 0
-let hasWon = false
+let myCourses = [" learn css Animations", "UI design Fundamental", "Intro to clean code"]
 
-points +=100
-hasWon =true
-if(hasWon){
-  console.log (`${player} got ${points} points  and won the ${game}  game!`)
+function myArray(arr){
+  for(i=0; i <arr.length; i++){
+    console.log(arr[i])
+  }
 }
 
-else{
-   console.log(`The winner is ${opponent} ! ${player} lost the game`)
+myArray(myCourses)
 
-}
