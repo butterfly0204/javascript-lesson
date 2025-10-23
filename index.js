@@ -1,64 +1,16 @@
-/*
-let myLeads = []
-const inputEL = document.getElementById("input-el")
-const ulEl = document.getElementById("ul-el")
-const inputBtn = document.getElementById("input-btn")
-const delBtn = document.getElementById("del")
- const leadsFromLocalStorage = JSON.parse(localStorage.getItem("myLeads"))
+let player = "per"
+let opponent = "nick"
+const game = " AmazingFighter"
+let points = 0
+let hasWon = false
 
-if (leadsFromLocalStorage) {
-  myLeads =leadsFromLocalStorage
-  renderLeads()
-}
-function renderLeads() {
-  let listItems = ""
-  for (let i = 0; i < myLeads.length; i++){
-
-   listItems += 
-   `<li> 
-   <a href = ' ${myLeads[i]}' target='_blank'>  ${myLeads[i]}  </a>
-   
-   </li> `
-  }
-  ulEl.innerHTML = listItems
+points +=100
+hasWon =true
+if(hasWon){
+  console.log (`${player} got ${points} points  and won the ${game}  game!`)
 }
 
-inputBtn.addEventListener("click", function(){
- inputEL.value =""
-})
-
-delBtn.addEventListener("dblclick", function(){
-  localStorage.clear()
-  myLeads =[]
-  renderLeads()
-
-  console.log("ouch, You clicked me")
-
+else{
+   console.log(`The winner is ${opponent} ! ${player} lost the game`)
 
 }
-)
-inputBtn.addEventListener("click", function() {
-    myLeads.push(inputEL.value)
-    inputEL.value = ""
-    localStorage.setItem("myLeads", JSON.stringify(myLeads))
-    renderLeads()
-}) 
-
-*/
-
-
-function getFirst(arr) {
-  return arr[0]
-
-}
-
-console.log(getFirst(["favour", "mogaji", "oluwabukola"]))
-
-
-
-
-
-
-
- 
-
