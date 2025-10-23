@@ -46,17 +46,13 @@ inputBtn.addEventListener("click", function() {
 
 */
 
-function add(num1, num2){
 
- let sum  = num1 +num2
- return sum
+function getFirst(arr) {
+  return arr[0]
 
 }
-console.log( add(3,4))
-console.log( add(9,102))
 
-
-
+console.log(getFirst(["favour", "mogaji", "oluwabukola"]))
 
 
 
