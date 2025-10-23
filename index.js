@@ -1,10 +1,20 @@
-let myCourses = [" learn css Animations", "UI design Fundamental", "Intro to clean code"]
-
-function myArray(arr){
-  for(i=0; i <arr.length; i++){
-    console.log(arr[i])
+let data = [
+  {
+    player: "jane",
+    score: 53
+  },
+  {
+    player: "mark",
+    score: 41
   }
-}
+]
 
-myArray(myCourses)
 
+let janeScore =document.getElementById("jane")
+
+janeScore.addEventListener("click", function(){
+
+  console.log(data[0].score)
+
+
+})
