@@ -46,14 +46,14 @@ inputBtn.addEventListener("click", function() {
 
 */
 
-let welcome = document.getElementById("welcome")
+function add(num1, num2){
 
+ let sum  = num1 +num2
+ return sum
 
-function hello(greeting, name, emoji){
-welcome.textContent =` ${greeting}  ,${name} ${emoji}`
 }
-
-hello("Welcome back", "favour"," 🍎" )
+console.log( add(3,4))
+console.log( add(9,102))
 
 
 
