@@ -1,20 +1,9 @@
-let data = [
-  {
-    player: "jane",
-    score: 53
-  },
-  {
-    player: "mark",
-    score: 41
+generateSentence(des, arr){
+  let baseString = `the ${arr.length} ${des}  are `
+  for(i=0; i < arr.length; i++){
+    baseString += arr[i] + ","
+
   }
-]
 
 
-let janeScore =document.getElementById("jane")
-
-janeScore.addEventListener("click", function(){
-
-  console.log(data[0].score)
-
-
-})
+}
