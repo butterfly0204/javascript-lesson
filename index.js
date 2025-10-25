@@ -1,10 +1,14 @@
- const sentence = generateSentence("countries", ["america", "nigeria", "london"])
+ const sentence = generateSentence("countries", ["america", "nigeria", "london", "egypt"])
  
  function generateSentence(desc, arr){
-
+ let baseString =`the ${arr.length} ${desc} are `
     for (i=0;  i< arr.length; i++){
-        let baseString =`the ${arr.length} ${desc} are`
-        baseString += arr[i]
+       
+        baseString += arr[i] +" "
     }
 
+    return baseString
+
  }
+
+ console.log(sentence)
