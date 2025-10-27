@@ -1,14 +1,5 @@
- const sentence = generateSentence("countries", ["america", "nigeria", "london", "egypt"])
- 
- function generateSentence(desc, arr){
- let baseString =`the ${arr.length} ${desc} are `
-    for (i=0;  i< arr.length; i++){
-       
-        baseString += arr[i] +" "
-    }
+  const totalPrice = Math.round(420.69235632455)
+  const btn = document.getElementById("purchase-btn")
 
-    return baseString
 
- }
-
- console.log(sentence)
+  btn.textContent = `buy $${ totalPrice}`
