@@ -1,13 +1,6 @@
-  const totalPrice = Number("420.69235632455")
-  const btn = document.getElementById("purchase-btn")
+const exerciseTimemin = 5
+let message = ''
 
+let value = exerciseTimemin <20 ? " you need to try Harder!": "DOing good"
 
-  btn.textContent = `buy $${ totalPrice.toFixed(2)}`
-  btn.textContent = `buy $${ totalPrice.toFixed(2)}`
-  btn.textContent = `buy $${ totalPrice.toFixed(2)}`
-  btn.textContent = `buy $${ totalPrice.toFixed(2)}`
-  btn.textContent = `buy $${ totalPrice.toFixed(2)}`
-  btn.textContent = `buy $${ totalPrice.toFixed(2)}`
-  btn.textContent = `buy $${ totalPrice.toFixed(2)}`
-  btn.textContent = `buy $${ totalPrice.toFixed(2)}`
-  btn.textContent = `buy $${ totalPrice.toFixed(2)}`
+console.log(value)
