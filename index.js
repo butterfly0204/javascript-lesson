@@ -3,3 +3,11 @@
 
 
   btn.textContent = `buy $${ totalPrice.toFixed(2)}`
+  btn.textContent = `buy $${ totalPrice.toFixed(2)}`
+  btn.textContent = `buy $${ totalPrice.toFixed(2)}`
+  btn.textContent = `buy $${ totalPrice.toFixed(2)}`
+  btn.textContent = `buy $${ totalPrice.toFixed(2)}`
+  btn.textContent = `buy $${ totalPrice.toFixed(2)}`
+  btn.textContent = `buy $${ totalPrice.toFixed(2)}`
+  btn.textContent = `buy $${ totalPrice.toFixed(2)}`
+  btn.textContent = `buy $${ totalPrice.toFixed(2)}`
