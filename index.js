@@ -1,6 +1,7 @@
-const exerciseTimemin = 5
-let message = ''
+const playerGuss = 6
+const correctAnswer = 6
 
-let value = exerciseTimemin <20 ? " you need to try Harder!": "DOing good"
 
-console.log(value)
+let message = playerGuss === correctAnswer? "Correct" : "wrong"
+
+console.log (message)
