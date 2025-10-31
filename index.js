@@ -1,8 +1,14 @@
-const playerGuss = 5
-const correctAnswer = 5
+function selectItem(item) {
+    let price = 0
 
+    switch(item){
+        case 'coffee':
+        price = 2
+         break
+    
+        }
+        return `you selected ${item}, Tha will be $${price}`
 
-let message = 
-playerGuss > correctAnswer ? " too high" : playerGuss < correctAnswer? "too low" :"Correct" 
+}
 
-console.log (message)
+console.log(selectItem('coffee'))
