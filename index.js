@@ -16,7 +16,8 @@ function selectItem(item) {
         case 'sandwiches':
              price = 5
              break
-        
+                default:
+                return `sorry we ont sell ${item}`
     
         }
         return `you selected ${item}, Tha will be $${price}`
@@ -30,3 +31,6 @@ console.log(selectItem('coffee'))
 console.log(selectItem('salad'))
 console.log(selectItem('lemon cake'))
 console.log(selectItem('sandwiches'))
+console.log(selectItem('cake'))
+console.log(selectItem('bobo'))
+console.log(selectItem('candle'))
