@@ -31,6 +31,8 @@ console.log(selectItem('coffee'))
 console.log(selectItem('salad'))
 console.log(selectItem('lemon cake'))
 console.log(selectItem('sandwiches'))
+
+// added default to ensure this doesnt come out as pric = 0
 console.log(selectItem('cake'))
 console.log(selectItem('bobo'))
 console.log(selectItem('candle'))
