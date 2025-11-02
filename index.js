@@ -1,15 +1,12 @@
 // Object destructing enables us to extract
 //  properties from objects into distinct variables//
- const favouriteFilm = {
-    title: "top gun",
-    year: " 1986",
-    genre: "action",
-    star: " Tom Cruise",
-    director: "Tony Scott"
+ const dreamHoliday = {
+   destination: 'new york',
+   activity: 'statue of liberty',
+   accomodation: 'fancy hotel',
+   companion: 'peace',
+ } 
 
- }
+ const {destination, activity, accomodation, companion} = dreamHoliday
 
- const {title, year, genre, star, director} = favouriteFilm
-
- console.log(`my favourite fil is ${title}, starring ${star}.
-               its an ${genre} directed by ${director} and was released in ${year}`)
+ console.log(`i would love to go to ${destination}, texas to visit the ${activity} i'd sleep in a ${accomodation} and hang out with ${companion} all day`)
