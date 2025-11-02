@@ -1,8 +1,8 @@
 // settimeout with parameters//
-function displayTrafficLight(light) {
-  console.log(light)
+function logAnswer() {
+  console.log(`THe answer is lima of course! If you got that right, give yourself 10 Points.`)
 }
+setTimeout(logAnswer, 3000)
 
-setTimeout(displayTrafficLight, 3000, '❤️')
 
-displayTrafficLight('💚')
+console.log(`What is th capital of Peru?`)
