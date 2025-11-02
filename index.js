@@ -1,12 +1,8 @@
-// Object destructing enables us to extract
-//  properties from objects into distinct variables//
- const dreamHoliday = {
-   destination: 'new york',
-   activity: 'statue of liberty',
-   accomodation: 'fancy hotel',
-   companion: 'peace',
- } 
+// settimeout with parameters//
+function displayTrafficLight(light) {
+  console.log(light)
+}
 
- const {destination, activity, accomodation, companion} = dreamHoliday
+setTimeout(displayTrafficLight, 3000, '❤️')
 
- console.log(`i would love to go to ${destination}, texas to visit the ${activity} i'd sleep in a ${accomodation} and hang out with ${companion} all day`)
+displayTrafficLight('💚')
