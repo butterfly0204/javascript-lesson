@@ -1,38 +1,15 @@
-function selectItem(item) {
-    let price = 0
+// Object destructing enables us to extract
+//  properties from objects into distinct variables//
+ const favouriteFilm = {
+    title: "top gun",
+    year: " 1986",
+    genre: "action",
+    star: " Tom Cruise",
+    director: "Tony Scott"
 
-    switch(item){
-        case 'coffee':
-             price = 2
-             break
+ }
 
-         case 'lemon cake':
-             price = 3
-             break
+ const {title, year, genre, star, director} = favouriteFilm
 
-        case 'salad':
-             price = 4
-             break
-        case 'sandwiches':
-             price = 5
-             break
-                default:
-                return `sorry we ont sell ${item}`
-    
-        }
-        return `you selected ${item}, Tha will be $${price}`
-
-       
-
-
-}
-
-console.log(selectItem('coffee'))
-console.log(selectItem('salad'))
-console.log(selectItem('lemon cake'))
-console.log(selectItem('sandwiches'))
-
-// added default to ensure this doesnt come out as pric = 0
-console.log(selectItem('cake'))
-console.log(selectItem('bobo'))
-console.log(selectItem('candle'))
+ console.log(`my favourite fil is ${title}, starring ${star}.
+               its an ${genre} directed by ${director} and was released in ${year}`)
