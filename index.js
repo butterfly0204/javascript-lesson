@@ -1,5 +1,5 @@
 // the date() constructor
 
- const dateSnaSHot = new Date();
+ const dateSnapShot = new Date();
 
- console.log (typeof dateSnaSHot)
+ console.log ( dateSnapShot.toString())
