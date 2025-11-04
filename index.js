@@ -2,4 +2,4 @@
 
  const dateSnapShot = new Date();
 
- console.log ( dateSnapShot.getFullYear())
+ console.log (` copyright ${dateSnapShot.getFullYear().toString()} all rights reserved`)
