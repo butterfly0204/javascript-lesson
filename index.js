@@ -2,4 +2,4 @@
 
  const dateSnapShot = new Date();
 
- console.log ( dateSnapShot.toString())
+ console.log ( dateSnapShot.getFullYear())
