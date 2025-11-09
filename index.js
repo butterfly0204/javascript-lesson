@@ -8,6 +8,8 @@ setInterval( function() {
 
 }, 1500)
 
+let prevPrice = null
+
 
 function renderStockTicker(stockData){
     const stockDisplayName = document.getElementById('name');
@@ -21,7 +23,7 @@ function renderStockTicker(stockData){
 
 stockDisplayName.innerText = name;
 stockDisplaySymbol.innerText = Sym;
-stockDisplayPrice.innerText = `$${price}`;
+stockDisplayPrice.innerText = price;
 stockDisplayTime.innerText = time;
 }
 
