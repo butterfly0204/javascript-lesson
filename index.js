@@ -1,10 +1,30 @@
 // super challenge stock ticker
+import { getStockData } from './fakeStockAPI.js';
 
-function getStockData(){
-    return {
-        name: `QtechAI`,
-        Sym: `QTA`,
-        price: (Math.random() *3).toFixed(2),
-        time:
-    }
+
+setInterval( function(){ 
+    const stockData = getStockData();
+    renderStockTicker(stockData);
+
+}, 1500)
+function renderStockTicker(){
+    const stockDisplayName = document.getElementById('name');
+    const stockDisplaySymbol = document.getElementById('symbol');
+    const stockDisplayPrice = document.getElementById('price');
+    const stockDisplayPriceIcon = document.getElementById('price-icon');
+    const stockDisplayTime = document.getElementById('time'); 
 }
+
+const {name, Sym, price, time} = getStockData();
+stockDisplayName.innerText = name;
+stockDisplaySymbol.innerText = Sym;
+stockDisplayPrice.innerText = `$${price}`;
+stockDisplayTime.innerText = time;
+
+
+
+
+
+
+
+

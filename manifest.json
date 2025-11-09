@@ -1,9 +1,3 @@
 {
-    "mainfest_version": 3,
-    "version": "1.0",
-    "name": ":leads tracker",
-    "action": {
-        "default_popup": "index.html",
-        "default_icon": "image.png"
-     }
-    }
+  "type": "module"
+}
