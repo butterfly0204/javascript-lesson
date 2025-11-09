@@ -1,9 +1,10 @@
 //Arrow funtions
-const speedWarning = (speed,driverSpeed) => {
-    return ` speed limit is ${speed}you are going at ${driverSpeed} mph!`;
-}
+const distanceTraveledMiles = [267,345, 234, 190, 299]
 
-console.log (speedWarning(40, 80));
+const distanceTraveledKm = distanceTraveledMiles.map(distance => 
+    Math.round(distance * 1.6) )
+
+console.log(distanceTraveledKm)
 
 
 
