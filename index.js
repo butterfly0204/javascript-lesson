@@ -1,11 +1,11 @@
-//Arrow funtions
-const distanceTraveledMiles = [267,345, 234, 190, 299]
+//inline Arrow funtions
 
-const distanceTraveledKm = distanceTraveledMiles.map(distance => 
-    Math.round(distance * 1.6) )
+const distanceTraveledMiles = [267, 345, 234, 190,299]
 
-console.log(distanceTraveledKm)
-
+const distanceTraveledKm = distanceTraveledMiles.map(function(distace){
+    return Math.round(distace * 1.6)
+})
+ console.log(distanceTraveledKm)
 
 
 
