@@ -1,12 +1,17 @@
 //inline Arrow funtions
 
-const distanceTraveledMiles = [267, 345, 234, 190,299]
+//  Extra: Didnt commit for two days and i am already forgeting i have been doing, Nevr go a day withot coding  guys//
+import { itemsBroughtArr} from './fakeStockAPI.js';
 
-const distanceTraveledKm = distanceTraveledMiles.map(distance =>
-    Math.round(distance * 1.6)
+ function calculateTotalCost(itemsBroughtArr){
+    const total  = itemsBroughtArr.reduce((total, currentItem) => 
+        total+ currentItem.price, 0
+
     )
- console.log(distanceTraveledKm)
-
+    return total
+ }
+ 
+ console.log (calculateTotalCost(itemsBroughtArr));
 
 
 
