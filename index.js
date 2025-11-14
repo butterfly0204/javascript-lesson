@@ -1,10 +1,16 @@
-//rest paramter example 
+//callback in javascript 
 
-//  Extra: Didnt commit for two days and i am already forgeting i have been doing, Nevr go a day withot coding  guys//
-function setPermissionLevel(permissionLevel, ...names) {
-names.forEach((name) => console.log (`${name} has been granted ${permissionLevel} access.`));
-   
-    }
+function  notifyUser(notificationFn){
+    notificationFn()
+}
 
-    setPermissionLevel("Admin", "Alice", "Bob", "Charlie");
+const emailNotification = ()=> {
+    console.log("You have a new email")
+}
+const smsNotification = ()=> {
+    console.log("You have a new SMS")
+}
 
+
+notifyUser(emailNotification)
+notifyUser(smsNotification)
