@@ -12,8 +12,9 @@ body{
 }
 
 .flex-container{
-    /*display: flex; */
+    display: flex; 
     background-color: rgb(226, 189, 189);
+    justify-content: end;
    
 }
 
@@ -23,6 +24,6 @@ body{
     background-color: purple;
     color: white;
     margin: 10px;
-    float: left;
+  
 }
 
