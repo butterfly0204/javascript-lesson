@@ -1,5 +1,10 @@
 /* Just taking a little break to learn css flex box and grid, 
 since the next tutorial in asynchorous in javascript*/
+ /* justify content: center , end , start, space-around, space between */
+ /* you use justify content for containers only and not items */
+ /* Note: you set the height first align-items is used to align itemss of a box*/
+ /* to select an item in a container you use aa psudo selector .item:nth-of-type(number of the positio i.e 3)*/
+
 
 *{
     margin: 0;
@@ -12,9 +17,11 @@ body{
 }
 
 .flex-container{
+    height: 500px;
     display: flex; 
     background-color: rgb(226, 189, 189);
-    justify-content: end;
+    justify-content: space-between;
+    align-items: center;
    
 }
 
