@@ -1,8 +1,28 @@
-#content{
-    padding: 20px;
-    text-align: center;
-    color: white;
-     background-color: rgba(43, 45, 197, 0.664);
-     border: 2px solid black;
-        border-radius: 10px;
+/* Just taking a little break to learn css flex box and grid, 
+since the next tutorial in asynchorous in javascript*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.flex-container{
+    /*display: flex; */
+    background-color: rgb(226, 189, 189);
+   
+}
+
+.item{
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+    color: white;
+    margin: 10px;
+    float: left;
+}
+
