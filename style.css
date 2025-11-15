@@ -53,14 +53,26 @@ since the next tutorial in asynchorous in javascript*/
 
     .navbar a{
         color: white;
+        text-decoration: none;
+        font-size: 18px;
+        font-weight: bold;
+        height: 100%;
+
     }
 
     .navbar .container{
-        display: flex;;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+    .navbar ul{
+        display: flex;
+        gap: 20px;
     }
 
 
-
+ 
 
 
 
