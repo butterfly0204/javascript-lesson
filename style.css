@@ -22,6 +22,9 @@ since the next tutorial in asynchorous in javascript*/
         background-color: #1d29ca81;
         
     }
+    ul{
+        list-style-type: none;
+    }
 
     img{
         max-width: 100%;
@@ -34,6 +37,26 @@ since the next tutorial in asynchorous in javascript*/
     .container{
         max-width: 1100px;
         margin: 0 auto;
+        padding: 0 30px;
+    }
+
+    .navbar{
+        background: #3474e6;
+        color:white;
+        height: 60px;
+    }
+
+    .navbar .logo{
+        font-size: x-large;
+        font-weight: bold;
+    }
+
+    .navbar a{
+        color: white;
+    }
+
+    .navbar .container{
+        display: flex;;
     }
 
 
