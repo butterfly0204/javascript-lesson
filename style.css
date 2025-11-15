@@ -6,6 +6,7 @@ since the next tutorial in asynchorous in javascript*/
  /* to select an item in a container you use aa psudo selector .item:nth-of-type(number of the positio i.e 3)*/
  /* align-self  is used for item of a container */
  /*order: to set the order of a item*/
+ /* flex basis is the same as width*/
 
 
 *{
@@ -36,7 +37,13 @@ body{
   
 }
 
+.item:nth-of-type(1){
+ flex-grow: 3;
+}
 .item:nth-of-type(2){
-    flex-basis: 200px;
+ flex-grow: 1;
+}
+.item:nth-of-type(3){
+ flex-grow: 2;
 }
 
