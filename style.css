@@ -1,10 +1,11 @@
 /* Just taking a little break to learn css flex box and grid, 
 since the next tutorial in asynchorous in javascript*/
- /* justify content: center , end , start, space-around, space between */
+ /* justify content: center , end , start, space-around, space between note: justify content is always on the main axis */
  /* you use justify content for containers only and not items */
- /* Note: you set the height first align-items is used to align itemss of a box*/
+ /* Note: you set the height first align-items is used to align itemss of a box note Align item is always on the cross axis*/
  /* to select an item in a container you use aa psudo selector .item:nth-of-type(number of the positio i.e 3)*/
- /* align-self  is used for item of a container*/
+ /* align-self  is used for item of a container */
+ /*order: to set the order of a item*/
 
 
 *{
@@ -18,29 +19,24 @@ body{
 }
 
 .flex-container{
-    height: 500px;
+    
     display: flex; 
     background-color: rgb(121, 165, 231);
     justify-content: space-between;
     align-items: center;
-   
+    
 }
 
 .item{
-    width: 100px;
+   flex-basis:100px;
     height: 100px;
     background-color: purple;
     color: white;
     margin: 10px;
   
 }
-.item:nth-of-type(1){
-    background-color: #da3434;
-    align-self: flex-start;
-}
 
-.item:nth-of-type(3){
-    background-color: #343fda;
-    align-self: flex-end;
+.item:nth-of-type(2){
+    flex-basis: 200px;
 }
 
