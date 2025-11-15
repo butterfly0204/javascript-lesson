@@ -59,6 +59,9 @@ since the next tutorial in asynchorous in javascript*/
         height: 100%;
 
     }
+    .navbar a:hover{
+        color: #000000;
+    }
 
     .navbar .container{
         display: flex;
@@ -70,6 +73,53 @@ since the next tutorial in asynchorous in javascript*/
         display: flex;
         gap: 20px;
     }
+
+    .header{
+        background:  #1d29ca;
+       color: white;
+       min-width: 400px;
+    }
+
+    .header h1{
+        font-size: 3rem;
+        font-weight: bold;
+        line-height: 1.2;
+    }
+
+    .header .img{
+        max-width: 400px;
+    }
+
+    .header .container{
+        height: 400px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      
+    }
+    .boxes .container{
+        display: flex;
+        justify-content: space-between;
+    } 
+    .box{
+        flex: 1;
+        background: #3474e6;
+        color: white;
+        border-radius: 10px;
+        margin: 20px 10px;
+        box-shadow: 0 3px 5px rgba(0,0,0,0.6);
+        padding: 15px 30px;
+    }
+
+    .box:hover{
+        background: #5e1ed6;
+    }
+
+    .box i{
+        margin-right:10px;
+    }
+ 
+
 
 
  
