@@ -4,10 +4,13 @@
 //API stands for Application Programming Interface. It is a set of rules and protocols for building and interacting with software applications. APIs allow different software systems to communicate with each other, enabling them to share data and functionality.
 
 
-async function getSuggestion() {
-const response = await fetch('https://bored-api.appbrewery.com/activity/3943506')
+async function getSuggestion(){
+const response = await fetch('https://bored-api.appbrewery.com/random')
 const data = await response.json()
 console.log(data)
-}
+
+} 
+
+
 
     
