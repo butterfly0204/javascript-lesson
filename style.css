@@ -1,17 +1,6 @@
-/* Just taking a little break to learn css flex box and grid, 
-since the next tutorial in asynchorous in javascript*/
- /* justify content: center , end , start, space-around, space between note: justify content is always on the main axis */
- /* you use justify content for containers only and not items */
- /* Note: you set the height first align-items is used to align itemss of a box note Align item is always on the cross axis*/
- /* to select an item in a container you use aa psudo selector .item:nth-of-type(number of the positio i.e 3)*/
- /* align-self  is used for item of a container */
- /*order: to set the order of a item*/
- /* flex basis is the same as width*/
 
-
-  
  
-
+  
 
 
  
