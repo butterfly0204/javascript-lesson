@@ -11,9 +11,11 @@
 
     } 
     catch(error){
+        console.log(error)
        
     }  
 
     finally{
+        console.log('Fetch attempt finished.')
 
     }
