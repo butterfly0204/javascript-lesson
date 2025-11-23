@@ -1,16 +1,19 @@
-//WHat is API? An Api is any tools that helps connect our program with someoneelse's program.
-//For example: when we use google maps in our app, we are using google maps API to connect our app with google maps program.
-
-//API stands for Application Programming Interface. It is a set of rules and protocols for building and interacting with software applications. APIs allow different software systems to communicate with each other, enabling them to share data and functionality.
-
-
-async function getSuggestion(){
-const response = await fetch('https://bored-api.appbrewery.com/random')
-const data = await response.json()
-console.log(data)
-
-} 
+// Handling Rejected Promises
+        fetch('https://api.example.com/data')
+        .then(response => response.json())
+        .then(data => console.log(data))
 
 
+ 
 
-    
+ 
+    try{
+
+    } 
+    catch(error){
+       
+    }  
+
+    finally{
+
+    }
