@@ -2,7 +2,13 @@
 
 const myPromise = new Promise((resolve, reject) =>{
     const success = Math.random() > 0.5
-    
+    if (success) {
+        resolve("The operation was successful!")
+    }
+    else{
+        reject("The operation failed.")
+    }
+
 })
 
  
