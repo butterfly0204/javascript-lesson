@@ -6,7 +6,7 @@ if(!baseUrl.ok){
 }
 
 
-const getPosts = baseUrl.json()
+const getPosts = await baseUrl.json()
 console.log(getPosts);
 }
 
@@ -21,4 +21,4 @@ finally {
 }
 
 
-
+ 
