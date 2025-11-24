@@ -15,14 +15,17 @@ const baseUrl = await fetch('https://apis.scrimba.com/jsonplaceholder/posts', {
         userId: 100
 
 
-    })
+    }),
+    header:{
+    'content-Type':'application/json'
+}
 })
 if(!baseUrl.ok){
     throw new Error(`HTTP error! status: ${baseUrl.status}`);
 }
 
 
-const getPosts = await baseUrl.json()
+const getPosts = await baseUrl.json() 
 console.log(getPosts);
 }
 
@@ -35,6 +38,7 @@ catch(error) {
 finally {
     console.log("Fetch attempt finished.");
 }
+
 
 
  
