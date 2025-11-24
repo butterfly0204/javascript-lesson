@@ -1,14 +1,12 @@
 // The promise constructor
 
-const myPromise = new Promise((resolve, reject) =>{
-    const success = Math.random() > 0.5
-    if (success) {
-        resolve("The operation was successful!")
+const promise = new Promise ((resolve, reject) => {
+    const success = Math.random() > 0.5;
+    if(success) {
+        resolve("Operation was successful!");
     }
     else{
-        reject("The operation failed.")
+        reject("Operation failed.");
     }
-
 })
 
- 
