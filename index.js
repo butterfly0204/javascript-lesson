@@ -8,13 +8,14 @@
 
 try{
 const baseUrl = await fetch('https://apis.scrimba.com/jsonplaceholder/posts', {
-    method: 'POST', body: {
+    method: 'POST',
+     body: JSON.stringify( {
         title: ' Holiday Nightmare',
         body: 'My holiday was ruined by bad weather.',
-        userId: 1
+        userId: 100
 
 
-    }
+    })
 })
 if(!baseUrl.ok){
     throw new Error(`HTTP error! status: ${baseUrl.status}`);
