@@ -1,6 +1,21 @@
 // Advance API version
+// GET getting data 
+// POST posting data
+// PUT updating data
+// DELETE deleting data
+// PATCH updating partial data
+
+
 try{
-const baseUrl = await fetch('https://apis.scrimba.com/jsonplaceholder/posts')
+const baseUrl = await fetch('https://apis.scrimba.com/jsonplaceholder/posts', {
+    method: 'POST', body: {
+        title: ' Holiday Nightmare',
+        body: 'My holiday was ruined by bad weather.',
+        userId: 1
+
+
+    }
+})
 if(!baseUrl.ok){
     throw new Error(`HTTP error! status: ${baseUrl.status}`);
 }
