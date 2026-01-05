@@ -1,17 +1,12 @@
-// Promise challenge
+// hi guys so i am tryin to refresh ,y knowledge on the basis of javascript cuse it seems like i have forgotten a lot of things,
+//  i had to stop coding for about 2 months now my brins feels lost
+// will also be taking it one step at a ime cause i am currentl writing my exams
 
-function preLoading(url) {
-    return
-}
+// starting with a counter program
+let firstNumber = 5
+let secondNumber = 5
 
-try{
-    const results = await preLoading('https://jsonplaceholder.typicode.com/posts');
-    console.log(results);
-    document.getElementById('img-container').appendChild(results);
-}
+ let count = (firstNumber + secondNumber)
 
-catch (error) {
-    console.error('Error fetching data:', error);
-}
+console.log(count)
 
- 
