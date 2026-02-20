@@ -1,12 +1,23 @@
+body{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+  
+  
+}
+img{
+    display: block; 
+    width: 300px;
 
- body{
-    background-color: rgb(184, 37, 61);
-    color: white;
-    font-size: 20px;
-    font-weight: bold;
-    text-align: center;
-    margin-top: 5px;
- }
+
+}
+input{
+    display: block;
+    width: 400px;
+    border-radius: 20px;
+    padding: 10px;
+}
+  
   
 
 
