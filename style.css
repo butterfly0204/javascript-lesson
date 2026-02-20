@@ -1,5 +1,12 @@
 
- 
+ body{
+    background-color: rgb(184, 37, 61);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 5px;
+ }
   
 
 
