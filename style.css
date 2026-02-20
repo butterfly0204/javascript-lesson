@@ -5,20 +5,25 @@ box-sizing: border-box;
   
   
 }
-img{
-    display: block; 
-    margin-top: 50px;
-    width: 300px;
-
+.red{
+    background-color: red;
+    height: 100px;
+    margin-bottom: 100px;
 
 }
-input{
-    display: block;
-    width: 400px;
-    border-radius: 20px;
-    padding: 10px;
+
+.green{
+    background-color: green;
+    height: 100px;
+
 }
-  
+
+.blue{
+    background-color: blue;
+    height: 100px;
+    margin-top: 100px;
+
+}
   
 
 
