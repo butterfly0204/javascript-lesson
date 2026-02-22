@@ -1,23 +1,24 @@
-
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 .my_img{
     width: 150px;
 
 }
 
 .card{
+    font-size: smaller;
     width: 400px;
     padding: 20px;
     display: flex;
     justify-content:space-around;
-    margin-left: auto;
+    margin:0 auto;
     margin-right: auto;
     text-align: center;
     color: #2b2839;
     background: #ddebf8;
     border-bottom: 6px solid #d8cefe;
-  
     
-   
 
 }
 
