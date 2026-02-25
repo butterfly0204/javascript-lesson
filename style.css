@@ -31,3 +31,22 @@
     font-size: 50px;
     font-family: inherit;
 }
+h1{
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  
+
+
+}
+.net{
+    padding-top: 50px;
+    letter-spacing: 20px;
+    text-align: center;
+    background:red;
+    padding-bottom: 50px;
+   color: white;
+   font-size: 50px;
+   text-shadow: 0px 0px 10px black;
+
+}
