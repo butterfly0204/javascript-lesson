@@ -1,5 +1,5 @@
  .universe{
-    margin-top: 100px;
+    padding-top: 100px;
     background-image: url(bryan-goff-f7YQo-eYHdM-unsplash.jpg);
     color:white;
     background-size: cover;
@@ -8,6 +8,7 @@
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
+    margin-top: 100px;
  
 
 }
@@ -17,9 +18,16 @@
     border: none;
     font-family: inherit;
      color: #1111ecad;
+     margin-bottom: 100px;
 }
 .me{
     color: #1111ecad;
     border-bottom: 5px solid white;
     
+}
+.terms{
+    text-align: center;
+    color:blue;
+    font-size: 50px;
+    font-family: inherit;
 }
