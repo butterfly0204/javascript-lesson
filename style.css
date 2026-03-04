@@ -33,3 +33,8 @@ h2, h4{
 
 }
 
+#date, #age{
+    padding: 10px 7px;
+    border-radius: 5px;
+}
+
