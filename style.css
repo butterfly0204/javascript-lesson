@@ -38,3 +38,12 @@ h2, h4{
     border-radius: 5px;
 }
 
+.gift-img{
+    width: 400px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url(favour.jpg);
+    
+    
+}
+
