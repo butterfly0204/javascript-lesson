@@ -1,6 +1,9 @@
-let myAge = 20
-let dogAge =7
+let bonusPoints = 50
 
-let ages = (myAge * dogAge) 
+ bonusPoints = bonusPoints +50
 
-console.log(ages)
+ bonusPoints = bonusPoints - 75
+
+ bonusPoints = bonusPoints + 45
+
+ console.log(bonusPoints)
