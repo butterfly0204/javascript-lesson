@@ -1,10 +1,11 @@
    let people = document.getElementById("count-el")
+   let saveEl = document.getElementById("save")
   let count = 0;  
 
  function increment(){
    count = count +1;
          people.innerText = count
-   //console.log(count)
+//console.log(count)
  }
  increment()
 
@@ -17,9 +18,14 @@
  decrement()
 
   function save(){
-     console.log (count)
+   let  output = count + " -"
+     saveEl.textContent += output
+     people.textContent =0
+     count =0
 
   }
 save()
+
+
 
 
