@@ -1,4 +1,4 @@
-let num1 = 4
+let num1 = 8
 let num2  =2 
   let save = document.getElementById("mySum")
 document.getElementById("num1-el").textContent = num1
