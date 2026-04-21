@@ -1,18 +1,34 @@
-let myPoints = 3
+let num1 = 4
+let num2  =2 
+  let save = document.getElementById("mySum")
+document.getElementById("num1-el").textContent = num1
+document.getElementById("num2-el").textContent = num2
 
-function add3Points(){
-    myPoints+=3
-    console.log(myPoints)
+
+
+
+function add(){
+  let result = num1 +num2
+  save.textContent = "sum: " + result 
+
+  
+
+    
 }
-
-function removalPoints(){
-    myPoints-=1
-    console.log(myPoints)
+function substract(){
+    let result = num1 -num2
+  save.textContent = "sum: " + result 
+  
+   
 }
-
-add3Points()
-add3Points()
-add3Points()
- removalPoints()
- removalPoints()
+function divide(){
+     let result = num1 /num2
+  save.textContent = "sum: " + result 
+ 
+}
+function multiply(){
+     let result = num1 * num2
+  save.textContent = "sum: " + result 
+  
+}
 
