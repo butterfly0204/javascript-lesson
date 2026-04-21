@@ -1,31 +1,18 @@
-   let people = document.getElementById("count-el")
-   let saveEl = document.getElementById("save")
-  let count = 0;  
+let myPoints = 3
 
- function increment(){
-   count = count +1;
-         people.innerText = count
-//console.log(count)
- }
- increment()
+function add3Points(){
+    myPoints+=3
+    console.log(myPoints)
+}
 
-  function decrement(){
-      count = count -1;
-        people.innerText = count
-      //console.log(count)
-  }
+function removalPoints(){
+    myPoints-=1
+    console.log(myPoints)
+}
 
- decrement()
-
-  function save(){
-   let  output = count + " -"
-     saveEl.textContent += output
-     people.textContent =0
-     count =0
-
-  }
-save()
-
-
-
+add3Points()
+add3Points()
+add3Points()
+ removalPoints()
+ removalPoints()
 
