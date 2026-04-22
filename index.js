@@ -1,34 +1,35 @@
-let num1 = 8
-let num2  =2 
-  let save = document.getElementById("mySum")
-document.getElementById("num1-el").textContent = num1
-document.getElementById("num2-el").textContent = num2
+ /**let firstCard = 22
+let secondCard = 11
+
+let sum = firstCard + secondCard
 
 
 
+if(sum < 21){
 
-function add(){
-  let result = num1 +num2
-  save.textContent = "sum: " + result 
+    console.log("Do you want to draw a new card")
 
-  
-
-    
 }
-function substract(){
-    let result = num1 -num2
-  save.textContent = "sum: " + result 
-  
-   
+else if(sum === 21){
+    console.log("You win")
+
 }
-function divide(){
-     let result = num1 /num2
-  save.textContent = "sum: " + result 
- 
+else{
+
+    console.log("Try again!")
 }
-function multiply(){
-     let result = num1 * num2
-  save.textContent = "sum: " + result 
-  
+    **/
+let age = 200
+
+if (age <100){
+    console.log("not eligible")
+
+
 }
 
+else if (age === 100){
+    console.log("Here is your birthday card from the kings")
+}
+else{
+    console.log("NOt eligible, YOu have already gotten one")
+}
